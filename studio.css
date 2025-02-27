@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif; /* Changed to a more modern font */
+    line-height: 1.6;
+    background-color: #eef2f3; /* Soft background color */
+    color: #333;
+}
+
+header {
+    background: linear-gradient(135deg, #91b8eb, #9a8c98); /* Gradient background */
+    color: #fff;
+    padding: 1.5rem 0;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px; /* Increased spacing */
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold; /* Bold links */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+nav a:hover {
+    color: #f9a74a; /* Hover effect color */
+}
+
+section {
+    padding: 30px;
+    margin: 20px;
+    background: #ffffff; /* Clean white background */
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Deeper shadow for depth */
+}
+
+h2 {
+    color: #4a4e69; /* Heading color */
+    margin-bottom: 20px; /* Space below headings */
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-container img {
+    margin: 15px;
+    width: 220px; /* Adjusted for better layout */
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15); /* Softer shadow */
+    transition: transform 0.3s; /* Scale effect */
+}
+
+.gallery-container img:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background: #000000; /* Darker footer background */
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px; /* Space above footer */
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1); /* Shadow on top of footer */
+}
